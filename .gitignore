@@ -1,0 +1,12 @@
+# Executabile compilate (se trimite doar codul sursa)
+*.exe
+*.EXE
+*.o
+*.obj
+
+# Subdirectoarele si fisierele create la rulare de F1.BAT
+ex04/*/
+ex05/*/
+ex06/*/
+*.SRT
+*.srt

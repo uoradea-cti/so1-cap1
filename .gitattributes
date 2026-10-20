@@ -1,0 +1,5 @@
+# Fisierele .bat trebuie sa aiba terminatii de linie Windows (CRLF),
+# altfel cmd.exe poate interpreta gresit etichetele si GOTO.
+*.bat text eol=crlf
+*.BAT text eol=crlf
+*.cmd text eol=crlf
