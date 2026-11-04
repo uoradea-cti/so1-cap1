@@ -7,3 +7,9 @@ REM multe extensii deodata.
 
 REM Scrieti solutia mai jos:
 
+:bucla
+if "~1"=="" goto eof
+del /Q *.%~1
+shift
+goto bucla
+:eof
