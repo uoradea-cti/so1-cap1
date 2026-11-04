@@ -5,3 +5,11 @@ REM formali, ci sa foloseasca variabilele interpretorului.
 
 REM Scrieti solutia mai jos:
 
+@echo off
+set S=sub1
+set F=test1
+call F1.BAT
+
+set S=sub2
+set F=test2
+call F1.BAT
