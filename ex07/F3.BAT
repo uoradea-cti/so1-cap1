@@ -7,3 +7,5 @@ REM Se presupune ca S nu contine alte subdirectoare.
 
 REM Scrieti solutia mai jos:
 
+del /Q %1\*.*
+rd %1
