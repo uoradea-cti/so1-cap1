@@ -6,3 +6,4 @@ REM parametru.
 
 REM Scrieti solutia mai jos:
 
+dir /b *.%~1
