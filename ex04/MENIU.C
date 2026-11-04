@@ -7,7 +7,11 @@
 
 int main(void)
 {
-    /* Scrieti solutia aici */
+    int optiune;
+    printf("1 - Creeaza\n2 - Sorteaza\n3 - Afiseaza\n0 - Iesire\nOptiune: ");
+    scanf("%d", &optiune);
+    
+    return optiune;
 
     return 0;
 }
