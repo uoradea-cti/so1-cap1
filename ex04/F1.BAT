@@ -10,3 +10,13 @@ REM La final afiseaza directorul curent si revine in directorul parinte.
 
 REM Scrieti solutia mai jos:
 
+@echo off
+echo.
+echo ===== MENIU =====
+echo 1 - Creare fisier (copiere de la tastatura)
+echo 2 - Sortare fisier
+echo 3 - Afisare fisier sortat
+echo 0 - Iesire
+choice /c 1230 /n /m "Optiunea ta: "
+if errorlevel 4 exit /b 0
+exit /b %errorlevel%
