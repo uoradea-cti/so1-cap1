@@ -5,5 +5,8 @@ REM sa il stearga impreuna cu toate fisierele pe care le contine.
 REM Lansati F3.BAT avand ca parametri subdirectoarele create anterior.
 REM Se presupune ca S nu contine alte subdirectoare.
 
-REM Scrieti solutia mai jos:
+if "%1"=="" goto :eof
+if not exist "%1\." goto :eof
+del /q "%1\*.*"
+rd "%1"
 
