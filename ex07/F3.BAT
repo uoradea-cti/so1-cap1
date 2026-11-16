@@ -6,4 +6,6 @@ REM Lansati F3.BAT avand ca parametri subdirectoarele create anterior.
 REM Se presupune ca S nu contine alte subdirectoare.
 
 REM Scrieti solutia mai jos:
-
+del %1\*.txt
+del %1\*.srt
+rd %1
